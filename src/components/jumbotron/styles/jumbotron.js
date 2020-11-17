@@ -14,7 +14,6 @@ export const Inner = styled.div`
 `;
 
 export const Pane = styled.div`
-  width: 50%;
   @media (max-width: 1000px) {
     width: 100%;
     padding: 0 45px;
@@ -26,6 +25,7 @@ export const Title = styled.h1`
   font-size: 50px;
   line-height: 1.1;
   margin-bottom: 8px;
+  padding: 0px 50px;
   @media (max-width: 600px) {
     font-size: 35px;
   }
@@ -35,6 +35,7 @@ export const SubTitle = styled.h2`
   font-size: 26px;
   font-weight: normal;
   line-height: normal;
+  padding: 0px 50px;
   @media (max-width: 600px) {
     font-size: 18px;
   }
